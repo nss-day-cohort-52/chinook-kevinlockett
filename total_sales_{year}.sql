@@ -1,5 +1,5 @@
 SELECT strftime('%Y', InvoiceDate) as Year,
-    COUNT(*) as InvoiceCount
+    SUM(TOTAL) as YearlyTotal
 FROM Invoice
 WHERE strftime('%Y', InvoiceDate) = '2009'
     OR strftime('%Y', InvoiceDate) = '2011'
