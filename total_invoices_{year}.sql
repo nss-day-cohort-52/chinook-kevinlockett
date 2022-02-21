@@ -1,3 +1,5 @@
+--How many Invoices were there in 2009 and 2011?
+
 SELECT strftime('%Y', InvoiceDate) as Year,
     COUNT(*) as InvoiceCount
 FROM Invoice

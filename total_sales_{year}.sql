@@ -1,3 +1,5 @@
+--What are the respective total sales for 2009 and 2011?
+
 SELECT strftime('%Y', InvoiceDate) as Year,
     SUM(TOTAL) as YearlyTotal
 FROM Invoice
