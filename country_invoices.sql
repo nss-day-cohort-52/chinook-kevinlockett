@@ -3,4 +3,4 @@
 SELECT BillingCountry,
     COUNT(InvoiceId) AS 'InvoiceTotal'
 FROM Invoice
-GROUP BY BillingCountry
+GROUP BY BillingCountry;

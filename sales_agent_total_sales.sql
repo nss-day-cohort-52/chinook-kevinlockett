@@ -8,4 +8,4 @@ JOIN Customer AS C
     ON E.EmployeeId = C.SupportRepId
 JOIN Invoice AS I
     ON C.CustomerId = I.CustomerId
-GROUP BY E.EmployeeId
+GROUP BY E.EmployeeId;

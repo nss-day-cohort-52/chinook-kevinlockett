@@ -2,4 +2,4 @@
 
 SELECT COUNT(*)
 FROM InvoiceLine
-WHERE InvoiceId = 37
+WHERE InvoiceId = 37;

@@ -7,4 +7,4 @@ SELECT E.FirstName, E.LastName,
 FROM Employee AS E
 LEFT JOIN Customer AS C
     ON E.EmployeeId == C.SupportRepId
-GROUP BY E.EmployeeId
+GROUP BY E.EmployeeId;

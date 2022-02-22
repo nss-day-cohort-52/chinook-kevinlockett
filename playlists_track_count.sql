@@ -9,4 +9,4 @@ JOIN PlaylistTrack AS PLT
     ON P.PlayListId = PLT.PlaylistId
 GROUP BY P.Name
 
-select * from Playlist
+select * from Playlist;

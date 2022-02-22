@@ -9,5 +9,5 @@ JOIN Track AS T
 Join Album AS A
     ON T.AlbumId = A.AlbumId
 Join Artist AS Art
-    ON A.ArtistId = Art.ArtistId
+    ON A.ArtistId = Art.ArtistId;
 

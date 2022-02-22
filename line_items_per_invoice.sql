@@ -3,4 +3,4 @@
 SELECT InvoiceId,
     COUNT(*)
 FROM InvoiceLine
-GROUP BY InvoiceId
+GROUP BY InvoiceId;

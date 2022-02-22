@@ -3,4 +3,4 @@
 SELECT BillingCountry AS Country,
     ROUND(SUM(Total), 2) As TotalSales
 FROM Invoice
-GROUP BY BillingCountry
+GROUP BY BillingCountry;

@@ -1,3 +1,5 @@
+--Which sales agent made the most in sales over all?
+
 SELECT FirstName, LastName, ROUND(MAX(Total), 2) AS TotalSales
 FROM (
     SELECT E.FirstName, E.LastName, SUM(I.Total) AS Total
@@ -7,4 +9,4 @@ FROM (
     JOIN Invoice AS I
         ON C.CustomerId = I.CustomerId
     GROUP BY E.EmployeeId
-)
+);

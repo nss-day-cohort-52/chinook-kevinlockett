@@ -13,4 +13,4 @@ JOIN MediaType AS M
 JOIN Album AS A
     ON T.AlbumId = A.AlbumId
 JOIN Genre AS G
-    ON T.GenreId = G.GenreId
+    ON T.GenreId = G.GenreId;

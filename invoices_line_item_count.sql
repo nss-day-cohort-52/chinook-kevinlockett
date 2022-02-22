@@ -6,4 +6,4 @@ SELECT I.InvoiceId, COUNT(IL.InvoiceLineId) AS LineItemCount
 FROM Invoice AS I
 JOIN InvoiceLine AS IL
     ON I.InvoiceId = IL.InvoiceId
-GROUP BY I.InvoiceId
+GROUP BY I.InvoiceId;

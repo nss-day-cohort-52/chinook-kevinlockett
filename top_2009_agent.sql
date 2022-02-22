@@ -10,4 +10,4 @@ FROM (
         ON C.CustomerId = I.CustomerId
     WHERE strftime('%Y', InvoiceDate) = '2009'
     GROUP BY E.EmployeeId
-)
+);
